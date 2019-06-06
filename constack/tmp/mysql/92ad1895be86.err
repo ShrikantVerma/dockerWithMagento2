@@ -1,0 +1,91 @@
+2019-06-06 12:12:36 0 [Note] InnoDB: Using Linux native AIO
+2019-06-06 12:12:36 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-06-06 12:12:36 0 [Note] InnoDB: Uses event mutexes
+2019-06-06 12:12:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-06-06 12:12:36 0 [Note] InnoDB: Number of pools: 1
+2019-06-06 12:12:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-06-06 12:12:36 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-06-06 12:12:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-06-06 12:12:36 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2019-06-06 12:12:36 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=8756652
+2019-06-06 12:12:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-06-06 12:12:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-06-06 12:12:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-06-06 12:12:36 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-06-06 12:12:36 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2019-06-06 12:12:36 0 [Note] InnoDB: Waiting for purge to start
+2019-06-06 12:12:36 0 [Note] InnoDB: 10.3.15 started; log sequence number 8756661; transaction id 4558
+2019-06-06 12:12:36 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2019-06-06 12:12:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-06-06 12:12:36 0 [Note] Recovering after a crash using tc.log
+2019-06-06 12:12:36 0 [Note] Starting crash recovery...
+2019-06-06 12:12:36 0 [Note] Crash recovery finished.
+2019-06-06 12:12:36 0 [Note] InnoDB: Buffer pool(s) load completed at 190606 12:12:36
+2019-06-06 12:12:36 0 [Note] Reading of all Master_info entries succeded
+2019-06-06 12:12:36 0 [Note] Added new Master_info '' to hash table
+2019-06-06 12:12:36 0 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.3.15-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 0  MariaDB Server
+2019-06-06 12:23:42 9 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2019-06-06 12:23:51 10 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-06-06 12:35:18 12 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2019-06-06 12:42:52 14 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2019-06-06 13:03:31 0 [Note] InnoDB: Using Linux native AIO
+2019-06-06 13:03:31 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-06-06 13:03:31 0 [Note] InnoDB: Uses event mutexes
+2019-06-06 13:03:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-06-06 13:03:31 0 [Note] InnoDB: Number of pools: 1
+2019-06-06 13:03:31 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-06-06 13:03:31 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-06-06 13:03:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-06-06 13:03:31 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2019-06-06 13:03:31 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=8756670
+2019-06-06 13:03:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-06-06 13:03:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-06-06 13:03:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-06-06 13:03:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-06-06 13:03:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2019-06-06 13:03:32 0 [Note] InnoDB: Waiting for purge to start
+2019-06-06 13:03:32 0 [Note] InnoDB: 10.3.15 started; log sequence number 8756679; transaction id 4558
+2019-06-06 13:03:32 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2019-06-06 13:03:32 0 [Note] InnoDB: Buffer pool(s) load completed at 190606 13:03:32
+2019-06-06 13:03:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-06-06 13:03:32 0 [Note] Recovering after a crash using tc.log
+2019-06-06 13:03:32 0 [Note] Starting crash recovery...
+2019-06-06 13:03:32 0 [Note] Crash recovery finished.
+2019-06-06 13:03:32 0 [Note] Reading of all Master_info entries succeded
+2019-06-06 13:03:32 0 [Note] Added new Master_info '' to hash table
+2019-06-06 13:03:32 0 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.3.15-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 0  MariaDB Server
+2019-06-06 13:15:35 0 [Note] InnoDB: Using Linux native AIO
+2019-06-06 13:15:35 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-06-06 13:15:35 0 [Note] InnoDB: Uses event mutexes
+2019-06-06 13:15:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-06-06 13:15:35 0 [Note] InnoDB: Number of pools: 1
+2019-06-06 13:15:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-06-06 13:15:35 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-06-06 13:15:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-06-06 13:15:35 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2019-06-06 13:15:35 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=8756688
+2019-06-06 13:15:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-06-06 13:15:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-06-06 13:15:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-06-06 13:15:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-06-06 13:15:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2019-06-06 13:15:35 0 [Note] InnoDB: 10.3.15 started; log sequence number 8756697; transaction id 4558
+2019-06-06 13:15:35 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2019-06-06 13:15:35 0 [Note] InnoDB: Buffer pool(s) load completed at 190606 13:15:35
+2019-06-06 13:15:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-06-06 13:15:35 0 [Note] Recovering after a crash using tc.log
+2019-06-06 13:15:35 0 [Note] Starting crash recovery...
+2019-06-06 13:15:35 0 [Note] Crash recovery finished.
+2019-06-06 13:15:35 0 [Note] Server socket created on IP: '0.0.0.0'.
+2019-06-06 13:15:35 0 [Note] Reading of all Master_info entries succeded
+2019-06-06 13:15:35 0 [Note] Added new Master_info '' to hash table
+2019-06-06 13:15:35 0 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.3.15-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2019-06-06 13:15:37 9 [Warning] IP address '172.19.0.1' could not be resolved: Name does not resolve
+2019-06-06 13:15:50 10 [Warning] Access denied for user 'root'@'costocking_adminer_1.costocking_default' (using password: YES)
+2019-06-06 13:16:06 11 [Warning] Access denied for user 'root'@'172.19.0.1' (using password: YES)
+2019-06-06 13:16:14 12 [Warning] Access denied for user 'root'@'costocking_adminer_1.costocking_default' (using password: YES)
+2019-06-06 13:22:48 32 [Warning] Access denied for user 'root'@'costocking_adminer_1.costocking_default' (using password: YES)
+2019-06-06 13:23:31 33 [Warning] Access denied for user 'root'@'costocking_adminer_1.costocking_default' (using password: YES)

@@ -1,0 +1,30 @@
+version: "2"
+
+services:
+
+  costocking:
+    image: costocking:v1
+    restart: always
+    container_name: costocking
+    volumes:
+      - .:/cocorico
+      - ./tmp/mysql:/var/lib/mysql
+      - ./tmp/mongo:/data/db
+    ports:
+      - 80:80
+      - 3306:3306
+      - 9001:9001
+      - 27017:27017
+    environment:
+    - "VIRTUAL_HOST=www.costocking.com"
+    - "LETSENCRYPT_HOST=www.costocking.com"
+    - "LETSENCRYPT_EMAIL=contact@costocking.com"
+    - "MYSQL_ROOT_PASSWORD=cocorico"
+    - "MYSQL_ROOT_HOST=%"
+
+  adminer:
+    image: adminer
+    depends_on :
+    - costocking
+    ports:
+      - 8080:8080
